@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.menu ul{
+    font-size: 48px;
+}
+
+
+.landing{
+    background-image: url(Images/Landing.png);
+    background-size: cover;
+}
+
+.cto{
+    background-image: url(Images/image\ 4.png);
+    /* background-size: cover; */
+    /* height: 720px; */
+}
+
+.images {
+    /* CHANGE TO GRID */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    grid-gap: 0px;
+    /* width: 50%; */
+    height: 300px;
+
+    /* max-width: 100%; */
+    margin:0 ;
+}
+.images img {
+    object-fit: cover;
+    width: 100%;
+    /* box-shadow: 0 2px 20px rgba(0, 0, 0, .25); */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
