@@ -22,6 +22,14 @@ function Menu(e){
             type: 'loop',
             perPage: 3,
             pagination: true,
+            breakpoints: {
+                640: {
+                    perPage: 1
+                },
+                1040: {
+                    perPage: 2
+                }
+            }
         });
         splide.mount();
     }); 
